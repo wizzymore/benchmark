@@ -44,7 +44,7 @@ Route::get('/logs', function () {
 })->name('logs');
 
 Route::get('/mandelbrot', function () {
-    $h = 1200;
+    $h = 600;
     $w = $h;
 
     $bit_num = 128;
