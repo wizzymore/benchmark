@@ -109,4 +109,5 @@ Route::get('/', function () {
             ]
         ]
     ]);
-});
+})
+    ->middleware(LogTimeMiddleware::class);
